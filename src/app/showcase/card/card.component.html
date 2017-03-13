@@ -1,17 +1,17 @@
-<div class="panel panel-default col-md-2 card">
+<div class="panel panel-default card">
   <div class="panel-body">
-    <img [src]="expressao.url">
+    <img [src]="expresso.url">
     <p class="text-center">
       Expresso
     </p>
     <p class="nome text-center">
-      {{expressao.nome}}
+      {{expresso.nome}}
     </p>
     <p class="text-center detalhes">
-      <a href="">+ Detalhes</a>
+      <a [routerLink]="['/detail', expresso.id]">+ Detalhes</a>
     </p>
     <p class="best-price text-center">
-      <span>R$ </span><span>{{expressao.preco | simpleMoneyPipe}}</span>
+      <span>R$ </span><span>{{expresso.preco | simpleMoneyPipe}}</span>
     </p>
   </div>
 </div>

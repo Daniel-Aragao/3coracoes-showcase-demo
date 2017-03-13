@@ -56,3 +56,11 @@ h1{
 .department-category-name+div{
     margin-top: 70px;
 }
+
+.Expressos{
+    list-style: none;
+}
+
+.Expressos .expresso{
+    margin: 10px;
+}
