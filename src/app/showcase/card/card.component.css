@@ -1,0 +1,39 @@
+.card img{
+    width: 100%;
+}
+
+.card p{
+    font: 12px/24px "Durotype - SecondaSoft-Bold",Arial,Helvetica,sans-serif;
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.card p.nome{
+    height: 48px;
+    overflow: hidden;
+    padding-top: 2px;
+    font-size: 21px;
+    color: black;
+}
+
+.detalhes{
+    border-top: 1px solid #ecd9d9;
+    border-bottom: 1px solid #ecd9d9;
+    padding: 18px 0;
+    text-transform: uppercase;
+    font: 12px/24px "Durotype - SecondaSoft-Medium",Arial,Helvetica,sans-serif;
+    letter-spacing: 2.4px;
+    margin: 18px 0;
+}
+
+.card a{
+    color: black;
+    text-decoration: none;
+}
+
+.card p.best-price{
+    display: block;
+    font: 28px/30px "Durotype - SecondaSoft-Bold",Arial,Helvetica,sans-serif;
+    padding-bottom: 2px;
+    color: #ff9f3f;
+}

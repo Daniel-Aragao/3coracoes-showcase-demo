@@ -7,7 +7,10 @@ import { RoutingModule } from './routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { ShowcaseComponent } from './showcase/showcase.component';
-import { DetailComponent } from './showcase/detail/detail.component';
+import { DetailComponent } from './detail/detail.component';
+import { CardComponent } from './showcase/card/card.component';
+
+import { SimpleMoneyPipe } from './pipe/simplemoney.pipe';
 
 @NgModule({
   declarations: [
@@ -15,6 +18,9 @@ import { DetailComponent } from './showcase/detail/detail.component';
     HeaderComponent,
     ShowcaseComponent,
     DetailComponent,
+    ShowcaseComponent,
+    CardComponent,
+    SimpleMoneyPipe
   ],
   imports: [
     BrowserModule,

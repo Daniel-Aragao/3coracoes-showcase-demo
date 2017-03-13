@@ -1,7 +1,7 @@
 import { NgModule }             from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ShowcaseComponent } from './showcase/showcase.component';
-import { DetailComponent } from './showcase/detail/detail.component';
+import { DetailComponent } from './detail/detail.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/showcase', pathMatch: 'full' },

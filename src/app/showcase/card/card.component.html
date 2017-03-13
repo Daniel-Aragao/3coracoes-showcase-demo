@@ -1,0 +1,17 @@
+<div class="panel panel-default col-md-2 card">
+  <div class="panel-body">
+    <img [src]="expressao.url">
+    <p class="text-center">
+      Expresso
+    </p>
+    <p class="nome text-center">
+      {{expressao.nome}}
+    </p>
+    <p class="text-center detalhes">
+      <a href="">+ Detalhes</a>
+    </p>
+    <p class="best-price text-center">
+      <span>R$ </span><span>{{expressao.preco | simpleMoneyPipe}}</span>
+    </p>
+  </div>
+</div>
