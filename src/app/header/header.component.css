@@ -1,0 +1,43 @@
+.navbar-default {
+    background-color: #2c0a00;
+    border-color: #e7e7e7;
+}
+
+.navbar {
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand {
+    height: 100px;
+}
+
+.nav.nav-pills{
+    background-color: #c82038;
+    font-family: "Durotype - SecondaSoft-Bold",Arial,Helvetica,sans-serif;
+    height: 50px;
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.nav.nav-pills a{
+    color: white
+}
+
+.nav.nav-pills li{
+    text-align: justify;
+    line-height: 30px;
+    margin-left: 5%;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #c82038;
+}
+
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    margin-right: 0;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
