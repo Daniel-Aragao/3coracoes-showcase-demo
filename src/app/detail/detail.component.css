@@ -1,0 +1,101 @@
+*{
+    background-color: #f1f1f1;
+}
+
+#detail{
+    margin-top: 30px;
+}
+
+div.image{
+    position: relative;
+    width: 419px;
+    height: 246px;
+    text-align: center;
+    float: left;
+}
+
+div.image>img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.infoProduct .categoryProduct {
+    font-family: "Durotype - SecondaSoft-Medium",Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 2;
+    letter-spacing: 2.4px;
+    color: #999999;
+    text-transform: uppercase;
+    padding-bottom: 7px;
+}
+
+.infoProduct .nameProduct {
+    font-family: "Durotype - SecondaSoft-Bold",Arial,Helvetica,sans-serif;
+    font-size: 30px;
+    line-height: 1.2;
+    letter-spacing: 6px;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+.infoProduct .descProduct {
+    font-family: "OpenSans",Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    line-height: 1.85;
+    letter-spacing: 0.3px;
+    color: #666666;
+    margin: 20px 0;
+}
+
+.bestPrice {
+    color: #ff9f3f;
+    display: block;
+    font-size: 48px;
+    font-family: "Durotype - SecondaSoft-Bold",Arial,Helvetica,sans-serif;
+}
+
+.containerUdasProduct {
+    /*margin: 20px 0 0 17.5%;*/
+    display: inline-block;
+    position: relative;
+    width: 83%;
+}
+
+.udasProducts>div.udaIntensidadeProduct {
+    padding-bottom: 30px;
+}
+
+.udasProducts h4 {
+    font-family: "Durotype - SecondaSoft-Bold",Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    color: #c31f36;
+    text-transform: uppercase;
+}
+
+.udasProducts .intensidade-3 {
+    width: 87px;
+}
+
+.udasProducts .intensidade-4 {
+    width: 116px;
+}
+
+.udasProducts .intensidade-5 {
+    width: 145px;
+}
+
+.udasProducts [class^="intensidade"] {
+    background: url(../assets/img/ico-intensidade.png) repeat-x 0 0;
+    height: 24px;
+    display: inline-block;
+    margin-top: 5px;
+    width: 29px;
+}
+
+.udasProducts>div div {
+    font-family: "OpenSans",Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    letter-spacing: 0.3px;
+    color: #666666;
+}

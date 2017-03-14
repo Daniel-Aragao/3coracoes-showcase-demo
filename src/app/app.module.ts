@@ -10,6 +10,8 @@ import { ShowcaseComponent } from './showcase/showcase.component';
 import { DetailComponent } from './detail/detail.component';
 import { CardComponent } from './showcase/card/card.component';
 
+import { ExpressoService } from './expresso.service';
+
 import { SimpleMoneyPipe } from './pipe/simplemoney.pipe';
 
 @NgModule({
@@ -28,7 +30,7 @@ import { SimpleMoneyPipe } from './pipe/simplemoney.pipe';
     HttpModule,
     RoutingModule
   ],
-  providers: [],
+  providers: [ExpressoService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

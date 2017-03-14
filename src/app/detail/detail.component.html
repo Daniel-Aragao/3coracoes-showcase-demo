@@ -1,3 +1,39 @@
-<p>
-  detail works!
-</p>
+<div id='detail' *ngIf="expresso" class="col-lg-10 col-lg-offset-1">
+  <div class="image">
+      <img [src]="'http://webapidemo3cor.azurewebsites.net/'+expresso.imageUrl">
+  </div>
+  <div class="detail infoProduct">
+    <h3 class="categoryProduct">Expressos</h3>
+    <h1 class="nameProduct">{{expresso.nome}}</h1>
+    <div class="descProduct">
+      <p>{{expresso.descricao}}</p>
+    </div>
+    <div>
+      <p class="bestPrice">
+        R$ 
+        {{expresso.preco | simpleMoneyPipe}}
+      </p>
+    </div>
+  </div>
+  <div class="containerUdasProduct">
+    <div class="udasProducts capsulas">
+      <div class="udaIntensidadeProduct">
+        <h4>Intensidade</h4>        
+        <span *ngFor='let feijao of quantidade' class="intensidade"></span>
+
+        <div class="udaorigemProduct">
+          <h4>Origem</h4>
+          <div>{{expresso.origem}}</div>
+        </div>
+        <div>
+          <h4>Variedade</h4>
+          <div>{{expresso.variedade}}</div>
+        </div>
+        <div>
+          <h4>Notas</h4>
+          <div>{{expresso.notas}}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

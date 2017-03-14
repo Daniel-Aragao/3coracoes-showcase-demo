@@ -1,13 +1,13 @@
 <div class="department-category-name">
-    <img alt="Espressos" src="http://i-tresc.a8e.net.br/static/images/banner-xicara-01.png">
+    <img alt="Espressos" src="../assets/img/banner-xicara-01.png">
     <h1><span class="level-name">Expressos</span></h1>
     <p class="text-category-name">Escolha como deseja a sua xícara</p>
 </div>
 
 <div class="col-lg-12">
-  <ul class="Expressos">
-    <li *ngFor='let e of expressos' class="expresso col-md-2 col-sm-3 col-xs-4 ">
-      <tcl-card [expresso] = e></tcl-card>
+  <ul *ngIf='expressos' class="Expressos">
+    <li *ngFor='let expresso of expressos' class="expresso col-md-2 col-sm-3 col-xs-4 ">
+      <tcl-card [expresso] = expresso></tcl-card>
     </li>
   </ul>
 </div>
