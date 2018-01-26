@@ -86,7 +86,7 @@ div.image>img{
 }
 
 .udasProducts [class^="intensidade"] {
-    background: url(../assets/img/ico-intensidade.png) repeat-x 0 0;
+    background: url(../../assets/img/ico-intensidade.png) repeat-x 0 0;
     height: 24px;
     display: inline-block;
     margin-top: 5px;
